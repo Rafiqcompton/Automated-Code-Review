@@ -1,0 +1,5 @@
+Install the required dependencies.
+Import the automated_code_review module into your development environment.
+Load the code to be reviewed into the algorithm.
+Call the perform_code_review(code) function, passing the code as input.
+The algorithm will analyze the code and provide a detailed review report with recommendations and suggestions.
