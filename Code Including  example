@@ -1,0 +1,17 @@
+import automated_code_review
+
+# Load the code to be reviewed
+code = """
+def calculate_sum(a, b):
+    result = a + b
+    print("The sum is:", result)
+    return result
+
+calculate_sum(3, 4)
+"""
+
+# Perform automated code review
+review_report = automated_code_review.perform_code_review(code)
+
+# Print the review report
+print(review_report)
